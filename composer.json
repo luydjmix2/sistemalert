@@ -1,0 +1,14 @@
+{
+    "name": "nes360/sistemalert",
+    "description": "sistema de alertas y mensajes push.",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Suarez",
+            "email": "ti@nes360.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
