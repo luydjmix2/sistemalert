@@ -1,7 +1,7 @@
 {
     "name": "nes/sistemalert",
     "description": "paquete para la generacion y gestion de alertas y mensajes push.",
-    "license": "Nes360-01-11-05-2021-lite",
+    "license": "MIT",
     "authors": [
         {
             "name": "Luis Suarez",
