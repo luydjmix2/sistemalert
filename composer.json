@@ -9,6 +9,11 @@
             "email": "ti@nes360.org"
         }
     ],
+	"homepage": "https://nes360.org",
+	"support": {
+        "issues": "https://nes360.org",
+        "source": "https://nes360.org"
+    },
     "require": {
         "php": ">=7.2.5",
         "illuminate/http": "^6.0|^7.0|^8.0",
