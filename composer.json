@@ -9,6 +9,30 @@
             "email": "ti@nes360.org"
         }
     ],
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/http": "^6.0|^7.0|^8.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0",
+        "illuminate/session": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "illuminate/view": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "SystemAlert\\": "vendor/system-alert/src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "SystemAlert\\SystemAlertServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
