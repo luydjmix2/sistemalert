@@ -25,7 +25,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "SystemAlert\\": "vendor/system-alert/src"
+            "Sistemalert\\": "vendor/system-alert/src"
         }
     },
     "extra": {
@@ -34,7 +34,7 @@
         },
         "laravel": {
             "providers": [
-                "sistemalert\\SystemAlertServiceProvider"
+                "Sistemalert\\SystemAlertServiceProvider"
             ]
         }
     },
